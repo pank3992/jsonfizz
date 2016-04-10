@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>json | part 2</title>
+</head>
+
+<body>
+  <h1>HOOK IT UP</h1>
+
+  <p>
+    <b><h4>Added Hooks:</h4></b>
+    <ul>
+      <li>
+        <b>Base64 Conversion: </b>
+        <br/> Selected keys have been changed to base64 encoding
+        <br/> Sample JSON Keys: Object->secretId, Object->servet[]->servletclass
+      </li>
+      <li>
+        <b>Total Cost: </b> <br/> Replaced cost details per session, with total cost
+        <br/> Sample JSON Keys: Object->cost
+      </li>
+      <li>
+        <b>Round Off Number: </b> <br/> Number is approximated to 2 decimal places
+        <br/> Sample JSON Keys: Object->cost[]->cost, Object->servet[]->initParams->lookInContext/dataStore
+      </li>
+      <li>
+        <b>UNIX Time: </b> <br/> Date object is converted to UNIX Time (in seconds)
+        <br/> Sample JSON Keys: Object->date
+      </li>
+    </ul>
+  </p>
+
+  <br/>
+  <br/>
+  <h3>Please check console logs for sample input and output</h3>
+
+  <br/>
+  <a href="test.html">Go back</a>
+  <script src="json-fizz.js"></script>
+  <script src="part2-hook-it-up.js"></script>
+</body>
+
+</html>
